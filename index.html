@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+    <script src="https://kit.fontawesome.com/e415a73b28.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hi, I'm <br><span>Debasish</span> Mishra from GIETU,GUNUPUR</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/1694019985539.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Hi I'm Debasish  Mishra, a passionate Computer Science student at GANDHI INSTUITE OF ENGENEERING AND TECHNOLOGY UNIVERSITY,GUNUPUR,ODISHA
+                        ,currently in my 2nd year. o'm driven by a passion for coding and creating digital solution,expriences.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Languages')">Languages</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        <p class="tab-links" onclick="opentab('Soft-skills')">Soft-skills</p>
+
+                    </div>
+                    <div class="tab-contents active-tab" id="Languages" >
+                        <ul>
+                            <li><span>C,Python</span><br>Problem Solving</li>
+                            <li><span>HTML5,CSS</span><br>Designing Frontend for webpages</li>
+                            <li><span>Javascript,PHP</span><br>For responsive & backend,to store data into Database</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>2022 - Current</span><br>Computer Science studnet at GIETU,GUNUPUR</li>
+                            <li><span>2020 - 2022</span><br>higher secondary scholling from Santiniketan HSS,Gunupur</li>
+                            <li><span>- 2020</span><br>Schooling from Saraswati shishu vidya mandir,Gunupur </li>
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="Soft-skills">
+                        <ul>
+                            <li><span>C</span>ritical Thinking</li>
+                            <li><span>P</span>roblem solving</li>
+                            <li><span>L</span>eadership</li>
+                            <li><span>E</span>motional intelligence</li>
+                        </ul>
+                    </div>
+                </div>
+
+        
+            </div>
+        </div>
+    </div>
+
+
+<section class="abcd">
+    
+    <section class="projects">
+        <div class="project">
+            <img src="image/megamain.png" alt="Project 1 Screenshot">
+            <h2>Local Ecommerce Website</h2>
+            <p>In this website i have completed the whole Frontend by combining HTML CSS Javascript and made it user friendly and responsible.</p>
+            <a href="https://github.com/debasish9876/local-e-commerce" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+        </div>
+        <div class="project">
+            <img src="image/amazone.png" alt="Project 2 Screenshot">
+            <h2>Amazone Clone</h2>
+            <p>In this project i am trying to replicate whole Amazone website and also it contain user authentication.</p>
+            <a href="https://github.com/debasish9876/Amazone-clone" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+        </div>
+        <div class="project">
+            <img src="image/dsa1.png" alt="Project 2 Screenshot">
+            <h2>Online file Storage System</h2>
+            <p>ot is a dynamic and user friendly platform provides seamless way to store,access,manage their files online. Here i have used PHP,Js as backend.</p>
+            <a href="https://github.com/debasish9876/file_storage" target="_blank" rel="noopener noreferrer">GitHub Link</a>
+        </div>
+        <!-- Add more project entries as needed -->
+    </section>
+
+
+
+
+
+
+    
+
+
+ 
+        <div class="contact">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fa fa-envelope"></i>
+                    <span>Email: debasishmishra9876@gmail.com</span>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone: 78480 84152</span>
+                </div>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/debasish.mishra.142892?mibextid=2JQ9oc" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook"></i>
+                </a>
+                <a href="https://twitter.com/Debasish_6" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="https://instagram.com/debasish_mishra.ayush" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/debasish-mishra-473709287" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+            <a href="https://drive.google.com/file/d/1XAcQYGbVhmSuacjGwb-x3dPzXAGJvc35/view?usp=sharing_eip_se_dm&ts=64fa1069" download class="download-cv">Download My resume</a>
+        </div>
+        
+    
+        
+        <div class="contact-form">
+            <h2><p>if you want to contact right now </p>Contact Form</h2>
+            <form id="contact-form" action="process.php" method="post">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+        </div>
+</section>
+  
+    
+
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-logo">
+                <!-- Your footer logo or branding -->
+            </div>
+            <div class="footer-links">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-social">
+                <a href="https://www.facebook.com/debasish.mishra.142892?mibextid=2JQ9oc"><i class="fab fa-facebook"></i></a>
+                <a href="https://twitter.com/Debasish_6"><i class="fab fa-twitter"></i></a>
+                <a href="https://instagram.com/debasish_mishra.ayush"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.linkedin.com/in/debasish-mishra-473709287"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        
+    </footer>
+    
+    <script>
+        var tablinks=document.getElementsByClassName("tab-links");
+        var tabcontents=document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+
+</body>
+</html>
